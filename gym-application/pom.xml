@@ -57,6 +57,11 @@
 			<artifactId>bson</artifactId>
 			<version>4.2.3</version>
 		</dependency>
+		<dependency>
+			<groupId>com.PAF</groupId>
+			<artifactId>Health-Hub-API</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
