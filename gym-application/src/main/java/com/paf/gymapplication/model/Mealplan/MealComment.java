@@ -1,4 +1,4 @@
-package com.paf.gymapplication.model.Post;
+package com.paf.gymapplication.model.Mealplan;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -6,13 +6,13 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-@Document(collection = "Comment")
-public class Comment {
+@Document(collection = "MealComment")
+public class MealComment {
 
     @Id
     private String commentId;
 
-    private UUID postId;
+    private UUID mealId;
     private String userId;
     private String userName;
     private String userImage;
@@ -20,13 +20,14 @@ public class Comment {
     private String Comment;
     private LocalDateTime dateTime;
 
-    public Comment() {
+
+    public MealComment() {
         super();
     }
 
-    public Comment(String commentId, UUID postId, String userId, String userName, String userImage, String comment, LocalDateTime dateTime) {
+    public MealComment(String commentId, UUID mealId, String userId, String userName, String userImage, String comment, LocalDateTime dateTime) {
         this.commentId = commentId;
-        this.postId = postId;
+        this.mealId = mealId;
         this.userId = userId;
         this.userName = userName;
         this.userImage = userImage;
@@ -42,12 +43,12 @@ public class Comment {
         this.commentId = commentId;
     }
 
-    public UUID getPostId() {
-        return postId;
+    public UUID getMealId() {
+        return mealId;
     }
 
-    public void setPostId(UUID postId) {
-        this.postId = postId;
+    public void setMealId(UUID mealId) {
+        this.mealId = mealId;
     }
 
     public String getUserId() {
@@ -90,4 +91,3 @@ public class Comment {
         this.dateTime = dateTime;
     }
 }
-
