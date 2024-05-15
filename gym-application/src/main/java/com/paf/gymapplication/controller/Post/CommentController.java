@@ -1,6 +1,5 @@
 package com.paf.gymapplication.controller.Post;
 
-//comment controller
 import com.paf.gymapplication.model.Post.Comment;
 import com.paf.gymapplication.service.Post.CommentService;
 import org.springframework.beans.factory.annotation.Autowired;
