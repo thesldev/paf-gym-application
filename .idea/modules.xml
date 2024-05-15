@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/paf-final-prject.iml" filepath="$PROJECT_DIR$/.idea/paf-final-prject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/paf-gym-application.iml" filepath="$PROJECT_DIR$/.idea/paf-gym-application.iml" />
     </modules>
   </component>
 </project>
