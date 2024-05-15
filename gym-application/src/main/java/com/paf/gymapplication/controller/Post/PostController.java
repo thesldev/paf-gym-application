@@ -1,5 +1,6 @@
 package com.paf.gymapplication.controller.Post;
 
+//create post controller
 import com.paf.gymapplication.model.Post.Post;
 import com.paf.gymapplication.service.Post.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
