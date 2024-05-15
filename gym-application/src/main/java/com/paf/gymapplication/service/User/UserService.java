@@ -1,4 +1,4 @@
-package com.paf.gymapplication.service.Mealplan.User;
+package com.paf.gymapplication.service.User;
 
 
 import com.paf.gymapplication.model.User.User;
